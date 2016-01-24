@@ -1,4 +1,4 @@
-Getting and Cleaning Data Project Codebook
+#**Getting and Cleaning Data Project Codebook**
 
 This code book describes the variables and the data in file tidydata.txt
 
@@ -13,14 +13,14 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Identifiers
+##**Identifiers**
 
 activity - The type of activity performed. It includes WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 subject - The subject ID who performed the activity for each window sample. Its range is from 1 to 30.
 
-Measurements
+##**Measurements**
 
-The measurements are average for each activity and each subject
+*The measurements are average for each activity and each subject
 The descriptive variable names for the measurements are based on the following
 Time - The time domain signal
 Body - Body
@@ -30,7 +30,7 @@ Gravity - Gravity
 Mean - Mean Value
 Std - Standard Deviation
 X,Y,Z - 3-axial signals in the X, Y and Z directions
-Magnitude - Magnitude
+Magnitude - Magnitude*
 
 The following are the 79 variable names:
 
