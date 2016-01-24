@@ -8,7 +8,7 @@ download.file(fileUrl,destfile="./data/Dataset.zip")
 # Unzip the downloaded file
 unzip(zipfile="./data/Dataset.zip",exdir="./data")
 
-# Check the files for the project
+# Check and verify the files for the project
 filePath <- file.path("./data" , "UCI HAR Dataset")
 files <- list.files(filePath, recursive=TRUE)
 files
