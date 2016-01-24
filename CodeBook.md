@@ -19,6 +19,7 @@ activity - The type of activity performed. It includes WALKING, WALKING_UPSTAIRS
 subject - The subject ID who performed the activity for each window sample. Its range is from 1 to 30.
 
 Measurements
+
 The measurements are average for each activity and each subject
 The descriptive variable names for the measurements are based on the following
 Time - The time domain signal
