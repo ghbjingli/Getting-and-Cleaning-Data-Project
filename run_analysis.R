@@ -1,4 +1,4 @@
-# Make sure this run_analysis.R file is in the working directory under which the data subdirectory is create or already exists
+# Make sure this run_analysis.R file is in the working directory under which the data subdirectory is created or already exists
 # 1. Merges the training and the test sets to create one data set
 # Download the Dataset.zip file and store it in directory data
 if(!file.exists("./data")){dir.create("./data")}
