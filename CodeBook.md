@@ -34,82 +34,82 @@ Magnitude - Magnitude*
 
 The following are the 79 variable names:
 
-timeBodyAccelerometerMeanX
-timeBodyAccelerometerMeanY
-timeBodyAccelerometerMeanZ
-timeBodyAccelerometerStdX
-timeBodyAccelerometerStdY
-timeBodyAccelerometerStdZ
-timeGravityAccelerometerMeanX
-timeGravityAccelerometerMeanY
-timeGravityAccelerometerMeanZ
-timeGravityAccelerometerStdX
-timeGravityAccelerometerStdY
-timeGravityAccelerometerStdZ
-timeBodyAccelerometerJerkMeanX
-timeBodyAccelerometerJerkMeanY
-timeBodyAccelerometerJerkMeanZ
-timeBodyAccelerometerJerkStdX
-timeBodyAccelerometerJerkStdY
-timeBodyAccelerometerJerkStdZ
-timeBodyGyroscopeMeanX
-timeBodyGyroscopeMeanY
-timeBodyGyroscopeMeanZ
-timeBodyGyroscopeStdX
-timeBodyGyroscopeStdY
-timeBodyGyroscopeStdZ
-timeBodyGyroscopeJerkMeanX
-timeBodyGyroscopeJerkMeanY
-timeBodyGyroscopeJerkMeanZ
-timeBodyGyroscopeJerkStdX
-timeBodyGyroscopeJerkStdY
-timeBodyGyroscopeJerkStdZ
-timeBodyAccelerometerMagnitudeMean
-timeBodyAccelerometerMagnitudeStd
-timeGravityAccelerometerMagnitudeMean
-timeGravityAccelerometerMagnitudeStd
-timeBodyAccelerometerJerkMagnitudeMean
-timeBodyAccelerometerJerkMagnitudeStd
-timeBodyGyroscopeMagnitudeMean
-timeBodyGyroscopeMagnitudeStd
-timeBodyGyroscopeJerkMagnitudeMean
-timeBodyGyroscopeJerkMagnitudeStd
-frequencyBodyAccelerometerMeanX
-frequencyBodyAccelerometerMeanY
-frequencyBodyAccelerometerMeanZ
-frequencyBodyAccelerometerStdX
-frequencyBodyAccelerometerStdY
-frequencyBodyAccelerometerStdZ
-frequencyBodyAccelerometerMeanFreqX
-frequencyBodyAccelerometerMeanFreqY
-frequencyBodyAccelerometerMeanFreqZ
-frequencyBodyAccelerometerJerkMeanX
-frequencyBodyAccelerometerJerkMeanY
-frequencyBodyAccelerometerJerkMeanZ
-frequencyBodyAccelerometerJerkStdX
-frequencyBodyAccelerometerJerkStdY
-frequencyBodyAccelerometerJerkStdZ
-frequencyBodyAccelerometerJerkMeanFreqX
-frequencyBodyAccelerometerJerkMeanFreqY
-frequencyBodyAccelerometerJerkMeanFreqZ
-frequencyBodyGyroscopeMeanX
-frequencyBodyGyroscopeMeanY
-frequencyBodyGyroscopeMeanZ
-frequencyBodyGyroscopeStdX
-frequencyBodyGyroscopeStdY
-frequencyBodyGyroscopeStdZ
-frequencyBodyGyroscopeMeanFreqX
-frequencyBodyGyroscopeMeanFreqY
-frequencyBodyGyroscopeMeanFreqZ
-frequencyBodyAccelerometerMagnitudeMean
-frequencyBodyAccelerometerMagnitudeStd
-frequencyBodyAccelerometerMagnitudeMeanFreq
-frequencyBodyAccelerometerJerkMagnitudeMean
-frequencyBodyAccelerometerJerkMagnitudeStd
-frequencyBodyAccelerometerJerkMagnitudeMeanFreq
-frequencyBodyGyroscopeMagnitudeMean
-frequencyBodyGyroscopeMagnitudeStd
-frequencyBodyGyroscopeMagnitudeMeanFreq
-frequencyBodyGyroscopeJerkMagnitudeMean
-frequencyBodyGyroscopeJerkMagnitudeStd
-frequencyBodyGyroscopeJerkMagnitudeMeanFreq
+timeBodyAccelerometerMeanX - Numeric from 0 to 1
+timeBodyAccelerometerMeanY - Numeric from -1 to 0
+timeBodyAccelerometerMeanZ - Numeric from -1 to 0
+timeBodyAccelerometerStdX - Numeric from -1 to 1
+timeBodyAccelerometerStdY - Numeric from -1 to 1
+timeBodyAccelerometerStdZ - Numeric from -1 to 1
+timeGravityAccelerometerMeanX - Numeric from -1 to 1
+timeGravityAccelerometerMeanY - Numeric from -1 to 1
+timeGravityAccelerometerMeanZ - Numeric from -1 to 1
+timeGravityAccelerometerStdX - Numeric from -1 to 0
+timeGravityAccelerometerStdY - Numeric from -1 to 0 
+timeGravityAccelerometerStdZ - Numeric from -1 to 0
+timeBodyAccelerometerJerkMeanX - Numeric from 0 to 1
+timeBodyAccelerometerJerkMeanY - Numeric from -1 to 1
+timeBodyAccelerometerJerkMeanZ - Numeric from -1 to 1
+timeBodyAccelerometerJerkStdX - Numeric from -1 to 1
+timeBodyAccelerometerJerkStdY - Numeric from -1 to 1
+timeBodyAccelerometerJerkStdZ - Numeric from -1 to 1
+timeBodyGyroscopeMeanX - Numeric from -1 to 1
+timeBodyGyroscopeMeanY - Numeric from -1 to 1
+timeBodyGyroscopeMeanZ - Numeric from -1 to 1
+timeBodyGyroscopeStdX - Numeric from -1 to 1
+timeBodyGyroscopeStdY - Numeric from -1 to 1
+timeBodyGyroscopeStdZ - Numeric from -1 to 1
+timeBodyGyroscopeJerkMeanX - Numeric from -1 to 0
+timeBodyGyroscopeJerkMeanY - Numeric from -1 to 0
+timeBodyGyroscopeJerkMeanZ - Numeric from -1 to 0
+timeBodyGyroscopeJerkStdX - Numeric from -1 to 1
+timeBodyGyroscopeJerkStdY - Numeric from -1 to 1
+timeBodyGyroscopeJerkStdZ - Numeric from -1 to 1
+timeBodyAccelerometerMagnitudeMean - Numeric from -1 to 1
+timeBodyAccelerometerMagnitudeStd - Numeric from -1 to 1
+timeGravityAccelerometerMagnitudeMean - Numeric from -1 to 1
+timeGravityAccelerometerMagnitudeStd - Numeric from -1 to 1
+timeBodyAccelerometerJerkMagnitudeMean - Numeric from -1 to 1
+timeBodyAccelerometerJerkMagnitudeStd - Numeric from -1 to 1
+timeBodyGyroscopeMagnitudeMean - Numeric from -1 to 1
+timeBodyGyroscopeMagnitudeStd - Numeric from -1 to 1
+timeBodyGyroscopeJerkMagnitudeMean - Numeric from -1 to 1
+timeBodyGyroscopeJerkMagnitudeStd - Numeric from -1 to 1
+frequencyBodyAccelerometerMeanX - Numeric from -1 to 1
+frequencyBodyAccelerometerMeanY - Numeric from -1 to 1
+frequencyBodyAccelerometerMeanZ - Numeric from -1 to 1
+frequencyBodyAccelerometerStdX - Numeric from -1 to 1
+frequencyBodyAccelerometerStdY - Numeric from -1 to 1
+frequencyBodyAccelerometerStdZ - Numeric from -1 to 1
+frequencyBodyAccelerometerMeanFreqX - Numeric from -1 to 1
+frequencyBodyAccelerometerMeanFreqY - Numeric from -1 to 1
+frequencyBodyAccelerometerMeanFreqZ - Numeric from -1 to 1
+frequencyBodyAccelerometerJerkMeanX - Numeric from -1 to 1
+frequencyBodyAccelerometerJerkMeanY - Numeric from -1 to 1
+frequencyBodyAccelerometerJerkMeanZ - Numeric from -1 to 1
+frequencyBodyAccelerometerJerkStdX - Numeric from -1 to 1
+frequencyBodyAccelerometerJerkStdY - Numeric from -1 to 1
+frequencyBodyAccelerometerJerkStdZ - Numeric from -1 to 0
+frequencyBodyAccelerometerJerkMeanFreqX - Numeric from -1 to 1
+frequencyBodyAccelerometerJerkMeanFreqY - Numeric from -1 to 1
+frequencyBodyAccelerometerJerkMeanFreqZ - Numeric from -1 to 1
+frequencyBodyGyroscopeMeanX - Numeric from -1 to 1
+frequencyBodyGyroscopeMeanY - Numeric from -1 to 1
+frequencyBodyGyroscopeMeanZ - Numeric from -1 to 1
+frequencyBodyGyroscopeStdX - Numeric from -1 to 1
+frequencyBodyGyroscopeStdY - Numeric from -1 to 1
+frequencyBodyGyroscopeStdZ - Numeric from -1 to 1
+frequencyBodyGyroscopeMeanFreqX - Numeric from -1 to 1
+frequencyBodyGyroscopeMeanFreqY - Numeric from -1 to 1
+frequencyBodyGyroscopeMeanFreqZ - Numeric from -1 to 1
+frequencyBodyAccelerometerMagnitudeMean - Numeric from -1 to 1
+frequencyBodyAccelerometerMagnitudeStd - Numeric from -1 to 1
+frequencyBodyAccelerometerMagnitudeMeanFreq - Numeric from -1 to 1
+frequencyBodyAccelerometerJerkMagnitudeMean - Numeric from -1 to 1
+frequencyBodyAccelerometerJerkMagnitudeStd - Numeric from -1 to 1
+frequencyBodyAccelerometerJerkMagnitudeMeanFreq - Numeric from -1 to 1
+frequencyBodyGyroscopeMagnitudeMean - Numeric from -1 to 1
+frequencyBodyGyroscopeMagnitudeStd - Numeric from -1 to 1
+frequencyBodyGyroscopeMagnitudeMeanFreq - Numeric from -1 to 1
+frequencyBodyGyroscopeJerkMagnitudeMean - Numeric from -1 to 1
+frequencyBodyGyroscopeJerkMagnitudeStd - Numeric from -1 to 1
+frequencyBodyGyroscopeJerkMagnitudeMeanFreq - Numeric from -1 to 1
