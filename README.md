@@ -22,7 +22,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-##** Steps Performaned to Clean up and Tidy the Data**
+##**Steps Performaned to Clean up and Tidy the Data**
 
 Make sure this run_analysis.R file is in the working directory under which the data subdirectory is created or already exists
 
