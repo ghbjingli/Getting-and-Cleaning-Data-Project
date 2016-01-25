@@ -24,71 +24,71 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ##** Steps Performaned to Clean up and Tidy the Data**
 
-# Make sure this run_analysis.R file is in the working directory under which the data subdirectory is created or already exists
+Make sure this run_analysis.R file is in the working directory under which the data subdirectory is created or already exists
 
 1. Merges the training and the test sets to create one data set
 
-> Download the Dataset.zip file and store it in directory data
+. Download the Dataset.zip file and store it in directory data
 
-> Unzip the downloaded file
+. Unzip the downloaded file
 
-> Read the train Data from train data files
+. Read the train Data from train data files
 
-> Combine the feature, subject and activity train data
+. Combine the feature, subject and activity train data
 
-> Read the test Data from test data files
+. Read the test Data from test data files
 
-> Combine the feature, subject and activity test data
+. Combine the feature, subject and activity test data
 
-> Merge the train and test data
+. Merge the train and test data
 
-> Read features from features file
+. Read features from features file
 
-> Add names to the data set
+. Add names to the data set
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement
 
-> Exam the features.txt for the patterns of mean and standard deviation
+. Exam the features.txt for the patterns of mean and standard deviation
 
-> The patterns include mean(), std(), meanFreq()
+. The patterns include mean(), std(), meanFreq()
 
-> Extracts the selected data
+. Extracts the selected data
 
 3. Uses descriptive activity names to name the activities in the data set
 
-> Read activity labels from activity labels file
+. Read activity labels from activity labels file
 
-> Factorize the activity with labels
+. Factorize the activity with labels
 
-> Factorize subject
+. Factorize subject
 
 4. Appropriately labels the data set with descriptive variable names
 
-> Change mean to Mean and std to Std and remove - and ()
+. Change mean to Mean and std to Std and remove - and ()
 
-> Replace begining t with time
+. Replace begining t with time
 
-> Replace begining f with frequency
+. Replace begining f with frequency
 
-> Replace Acc with Accelerometer
+. Replace Acc with Accelerometer
 
-> Replace Gyro with Gyroscope
+. Replace Gyro with Gyroscope
 
-> Replace Mag with Magnitude
+. Replace Mag with Magnitude
 
-> Replace BodyBody with Body
+. Replace BodyBody with Body
 
-> Review and verify the created data set
+. Review and verify the created data set
 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 
-> Load librayr reshape2
+. Load librayr reshape2
 
-> Melt selectedData by activity and subject
+. Melt selectedData by activity and subject
 
-> Generate the tidy set
+. Generate the tidy set
 
-> Create the file tidydata.txt containing the tidy data set
+. Create the file tidydata.txt containing the tidy data set
 
 ##**Project Deliverables**
 
