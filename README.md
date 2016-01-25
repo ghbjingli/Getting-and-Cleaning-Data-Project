@@ -26,7 +26,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 Make sure this run_analysis.R file is in the working directory under which the data subdirectory is created or already exists
 
-###**Merges the training and the test sets to create one data set**
+####**Merges the training and the test sets to create one data set**
 
 . Download the Dataset.zip file and store it in directory data
 
@@ -46,7 +46,7 @@ Make sure this run_analysis.R file is in the working directory under which the d
 
 . Add names to the data set
 
-###**Extracts only the measurements on the mean and standard deviation for each measurement**
+####**Extracts only the measurements on the mean and standard deviation for each measurement**
 
 . Exam the features.txt for the patterns of mean and standard deviation
 
@@ -54,7 +54,7 @@ Make sure this run_analysis.R file is in the working directory under which the d
 
 . Extracts the selected data
 
-###**Uses descriptive activity names to name the activities in the data set**
+####**Uses descriptive activity names to name the activities in the data set**
 
 . Read activity labels from activity labels file
 
@@ -62,7 +62,7 @@ Make sure this run_analysis.R file is in the working directory under which the d
 
 . Factorize subject
 
-###**Appropriately labels the data set with descriptive variable names**
+####**Appropriately labels the data set with descriptive variable names**
 
 . Change mean to Mean and std to Std and remove - and ()
 
@@ -80,7 +80,7 @@ Make sure this run_analysis.R file is in the working directory under which the d
 
 . Review and verify the created data set
 
-###**From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject**
+####**From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject**
 
 . Load librayr reshape2
 
