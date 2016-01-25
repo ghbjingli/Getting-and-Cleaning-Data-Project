@@ -29,7 +29,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 2. CodeBook.md
 	A codebook which describes the variables, the data, and any transformations performed to clean up the data
 3. run_analysis.R
-	A R script that performs all the clean up and transformation to generate the final product tidydata.txt file
+	A R script that performs all the clean up and transformation to generate the final product tidydata.txt file. Please also refer to the comments in this file for detailed step by step procedure to clean up and tidy the original data
 4. tidydata.txt
 	The file containing the final tidy data set
 
